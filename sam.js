@@ -60,7 +60,7 @@ function main() {
     }
 
     const secret = lagrangeInterpolation(points, k); 
-    console.log(`The secret (constant term c) is: ${Math.round(secret)}`); 
+    console.log(`constant term c = ${Math.round(secret)}`); 
 }
 
 main();  
